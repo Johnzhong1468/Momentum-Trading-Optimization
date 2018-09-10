@@ -9,20 +9,16 @@ https://v2.overleaf.com/read/cqzyvnwntcyb
 The code folder includes all the dependencies of codes that we used in our project
 
 ### Main files:
-
 #### longshort.m  
 It is the main matlab file to conduct all backtests, includes the zero financing portfolio rebalancing algorithm. Choose parameters and time period to conduct backtest, return portfolio performance and a plot of cumulative return.
-
 #### muV.m  
 It is the dependency file that include the algorithm for calculating different expected return and covariance matrix to be plugged in the markvovitz algorithm.
-
 #### cvx_markowitz.m  
 It is the markovitz algorithm for our portfolio optimization
-
 ### Data files:
-
-ffdata_m.mat & ffdata_d.mat  fama french factor data, monthly and daily
-
-p2data.mat  contains the stock data, 302 stocks, monthly data and daily data
-
-stocklist.txt  list of companies that meet our requirement.
+#### ffdata_m.mat & ffdata_d.mat  
+fama french factor data, monthly and daily
+#### p2data.mat  
+contains the stock data, 302 stocks, monthly data and daily data
+#### stocklist.txt  
+list of companies that meet our requirement.
